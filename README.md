@@ -7,5 +7,5 @@ This repository shows the main scripts I wrote that contributes to the following
 <ol>
   <li> Named Entity Recognition (NER) to identify drug and disease labels across corpus of texts. A BioBERT model was finetuned (transfer learning) with carefully annotated training data and was put together by Pytroch Lightning and also built from the ground-up. 
   <li> Text classification. Given abstract titles, the type of patent was classified using SciBert into two buckets: COMPOSITION OR METHOD. The conguration parameters and some early stopping techniques were used to boost accuracy.
-   <li>
+  <li> Multi-label classification using transfer learning for predictive text classification of news blobs (headlines + sub-headlines + first paragraph). The categories were REGULATORY, CLINICAL, FINANCIAL, COLLAB, PRESENTATION, and OTHER. Again, a BERT model was elected to finetune on. 
 </ol>
